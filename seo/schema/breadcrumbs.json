@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://omnicalc.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Calculators",
+      "item": "https://omnicalc.io/calculators"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Loan Calculator",
+      "item": "https://omnicalc.io/calculators/loan"
+    }
+  ]
+}
