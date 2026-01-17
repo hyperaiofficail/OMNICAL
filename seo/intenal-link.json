@@ -1,0 +1,10 @@
+{
+  "home": "/",
+  "calculators": "/calculators",
+  "financial": "/calculators/financial",
+  "health": "/calculators/health",
+  "education": "/calculators/education",
+  "loanCalculator": "/calculators/loan",
+  "taxCalculator": "/calculators/tax",
+  "sitemap": "/sitemap.xml"
+}
