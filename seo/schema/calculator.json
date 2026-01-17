@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "OmniCalc Loan Calculator",
+  "operatingSystem": "Web",
+  "applicationCategory": "FinanceApplication",
+  "url": "https://omnicalc.io/calculators/loan",
+  "description": "Calculate loan payments for personal, auto, or mortgage loans.",
+  "offers": [
+    { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+    { "@type": "Offer", "price": "0", "priceCurrency": "GBP" },
+    { "@type": "Offer", "price": "0", "priceCurrency": "INR" }, 
+    { "@type": "Offer", "price": "0", "priceCurrency": "JPY" },
+    { "@type": "Offer", "price": "0", "priceCurrency": "AUD" },
+    { "@type": "Offer", "price": "0", "priceCurrency": "CAD" },
+    { "@type": "Offer", "price": "0", "priceCurrency": "CHF" },
+    { "@type": "Offer", "price": "0", "priceCurrency": "CNY" },
+    { "@type": "Offer", "price": "0", "priceCurrency": "SAR" }
+  ]
+}
