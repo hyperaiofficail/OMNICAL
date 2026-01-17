@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I calculate my loan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Enter the loan amount, interest rate, and term in our Loan Calculator to see your monthly payments and total cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your calculators free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all OmniCalc calculators are completely free to use with no registration required."
+      }
+    }
+  ]
+}
