@@ -1,0 +1,6 @@
+{
+  "loanCalculator": ["loan calculator", "EMI calculator", "mortgage calculator"],
+  "taxCalculator": ["tax calculator", "income tax", "tax refund calculator"],
+  "percentageCalculator": ["percentage calculator", "percent increase", "percent decrease"],
+  "sipCalculator": ["SIP calculator", "mutual fund SIP", "investment calculator"]
+}
