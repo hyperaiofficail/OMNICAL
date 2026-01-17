@@ -1,0 +1,9 @@
+{
+  "siteName": "OmniCalc",
+  "siteUrl": "https://omnicalc.io",
+  "defaultTitle": "OmniCalc - Free Online Calculators",
+  "defaultDescription": "100+ free online calculators for finance, health, education, and everyday math. Fast, accurate, and mobile-friendly.",
+  "defaultImage": "/logo.svg",
+  "defaultLocale": "en_US",
+  "defaultType": "website"
+}
