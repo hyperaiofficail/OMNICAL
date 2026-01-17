@@ -1,0 +1,16 @@
+{
+  "name": "OmniCalc",
+  "short_name": "OmniCalc",
+  "description": "3000+ Smart Online Calculators",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}
