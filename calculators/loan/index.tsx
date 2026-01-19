@@ -4,6 +4,8 @@ import { calculateEMI, totalPayment, totalInterest } from './logic';
 import { generateMeta } from './seo';
 import { getSchemaJSONLD } from './schema';
 
+const stringifiedSchema = JSON.stringify(getSchemaJSONLD());
+
 const LoanCalculator = () => {
   const [principal, setPrincipal] = useState(100000);
   const [rate, setRate] = useState(12);
@@ -14,7 +16,6 @@ const LoanCalculator = () => {
   const interest = totalInterest(total, principal);
 
   const meta = generateMeta("loanCalculator");
-  const schema = getSchemaJSONLD();
 
   return (
     <>
@@ -22,7 +23,7 @@ const LoanCalculator = () => {
       <head>
         <title>{meta.title}</title>
         <meta name="description" content={meta.description} />
-        <script type="application/ld+json">{JSON.stringify(schema)}</script>
+        <script type="application/ld+json">{stringifiedSchema}</script>
       </head>
 
       <main className={styles.container}>
